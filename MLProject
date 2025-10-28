@@ -3,7 +3,7 @@ name: appointment_cancellation
 
 docker_env:
   # Name of the image we'll be running a container from
-  image: jedha/mlflow-server
+  image: jedha/mlflow-project
   # Volume binding
   volumes: ["$(pwd):/home/app"]
   # Set environment variables
